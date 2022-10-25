@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "replit-test"
+version = "0.1.0"
+description = ""
+authors = ["Alex C-G <alexcg@outlook.com>"]
+readme = "README.md"
+packages = [{include = "replit_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+docarray = "0.18.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
